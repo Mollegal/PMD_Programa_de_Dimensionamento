@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="bgwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>300</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bgwidget{
+background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0.301, stop:0 rgba(50, 56, 89, 255), stop:1 rgba(26, 24, 38, 255));}</string>
+   </property>
+   <widget class="QLabel" name="PMD">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>50</y>
+      <width>147</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 48pt &quot;Tahoma&quot;; color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>PMD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PMD_Full">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>204</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Tahoma&quot;; color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Programa Mol de Dimensionamento</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viga">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgb(48, 132, 242);
+font: 18pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Viga</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Laje">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>230</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgb(48, 132, 242);
+font: 18pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Laje</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pilar">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+background-color: rgb(48, 132, 242);
+font: 18pt &quot;Tahoma&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pilar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="PMD_Full_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>430</y>
+      <width>210</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Tahoma&quot;; color: rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Criado por: Gabriel Rodrigues Mol ©</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
